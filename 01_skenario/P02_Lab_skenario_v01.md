@@ -4,4 +4,3 @@ Mahasiswa melihat informasi ketersediaan peralatan melalui sistem. Petugas labor
 | :--- | :--- | :--- |
 | LAB-R01 | Mahasiswa | Lihat ketersediaan peralatan |
 | LAB-R02 | Petugas laboratorium | Kelola data peralatan |
-
