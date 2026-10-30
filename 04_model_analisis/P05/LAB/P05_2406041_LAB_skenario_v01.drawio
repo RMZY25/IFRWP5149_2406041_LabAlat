@@ -1,0 +1,266 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="ZJ6M03lJH0F1Zh4XY6tJ">
+    <mxGraphModel dx="774" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" value="&lt;b&gt;Tabel 5.1 Skenario Use Case LAB-UC03 Ajukan Peminjaman&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="700" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="table1" parent="1" style="childLayout=tableLayout;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;collapsible=0;dropTarget=0;" value="" vertex="1">
+          <mxGeometry height="910" width="700" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="36" width="700" as="geometry" />
+        </mxCell>
+        <mxCell id="r1_c1" parent="r1" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Nama use case&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="200" as="geometry">
+            <mxRectangle height="36" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1_c2" parent="r1" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="LAB-UC03 Ajukan Peminjaman" vertex="1">
+          <mxGeometry height="36" width="500" x="200" as="geometry">
+            <mxRectangle height="36" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="35" width="700" y="36" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_c1" parent="r2" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Aktor&lt;/b&gt;" vertex="1">
+          <mxGeometry height="35" width="200" as="geometry">
+            <mxRectangle height="35" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2_c2" parent="r2" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="Peminjam (berlaku untuk Mahasiswa dan Dosen)" vertex="1">
+          <mxGeometry height="35" width="500" x="200" as="geometry">
+            <mxRectangle height="35" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="36" width="700" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_c1" parent="r3" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Tujuan&lt;/b&gt;" vertex="1">
+          <mxGeometry height="36" width="200" as="geometry">
+            <mxRectangle height="36" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3_c2" parent="r3" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="Pengajuan peminjaman tercatat dan dapat diproses oleh petugas" vertex="1">
+          <mxGeometry height="36" width="500" x="200" as="geometry">
+            <mxRectangle height="36" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_c1" parent="r4" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Deskripsi&lt;/b&gt;" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4_c2" parent="r4" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="Peminjam memilih peralatan yang tersedia, mengisi data peminjaman, dan mengirim pengajuan" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="30" width="700" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_c1" parent="r5" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;fillColor=#f5f5f5;" value="&lt;b&gt;Kegiatan&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="200" as="geometry">
+            <mxRectangle height="30" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5_c2" parent="r5" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;fillColor=#f5f5f5;" value="&lt;b&gt;Respon sistem&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="200" as="geometry">
+            <mxRectangle height="30" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r6" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="31" width="700" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_c1" parent="r6" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Skenario Normal&lt;/b&gt;" vertex="1">
+          <mxGeometry height="31" width="700" as="geometry">
+            <mxRectangle height="31" width="700" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="40" width="700" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_c1" parent="r7" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="1. Peminjam memilih peralatan yang akan dipinjam" vertex="1">
+          <mxGeometry height="40" width="200" as="geometry">
+            <mxRectangle height="40" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7_c2" parent="r7" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="500" x="200" as="geometry">
+            <mxRectangle height="40" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_c1" parent="r8" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_c2" parent="r8" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="2. Sistem menjalankan Periksa Ketersediaan (lihat Tabel skenario LAB-UC04)" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="56" width="700" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_c1" parent="r9" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="3. Peminjam mengisi tanggal pinjam, tanggal rencana kembali, dan keperluan peminjaman" vertex="1">
+          <mxGeometry height="56" width="200" as="geometry">
+            <mxRectangle height="56" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9_c2" parent="r9" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="56" width="500" x="200" as="geometry">
+            <mxRectangle height="56" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_c1" parent="r10" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10_c2" parent="r10" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="4. Sistem memeriksa kelengkapan isian dan menampilkan ringkasan pengajuan" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r11" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="35" width="700" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="r11_c1" parent="r11" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="5. Peminjam mengirim pengajuan" vertex="1">
+          <mxGeometry height="35" width="200" as="geometry">
+            <mxRectangle height="35" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r11_c2" parent="r11" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="35" width="500" x="200" as="geometry">
+            <mxRectangle height="35" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="56" width="700" y="437" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_c1" parent="r12" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="56" width="200" as="geometry">
+            <mxRectangle height="56" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12_c2" parent="r12" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="6. Sistem menyimpan pengajuan dengan status Menunggu Keputusan dan menampilkan nomor pengajuan" vertex="1">
+          <mxGeometry height="56" width="500" x="200" as="geometry">
+            <mxRectangle height="56" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r13" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="31" width="700" y="493" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_c1" parent="r13" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Skenario Alternative&lt;/b&gt;" vertex="1">
+          <mxGeometry height="31" width="700" as="geometry">
+            <mxRectangle height="31" width="700" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="45" width="700" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="r14_c1" parent="r14" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="7. Peralatan yang dipilih tidak tersedia (cabang dari langkah 2)" vertex="1">
+          <mxGeometry height="45" width="200" as="geometry">
+            <mxRectangle height="45" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14_c2" parent="r14" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="45" width="500" x="200" as="geometry">
+            <mxRectangle height="45" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r15" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="569" as="geometry" />
+        </mxCell>
+        <mxCell id="r15_c1" parent="r15" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r15_c2" parent="r15" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="8. Sistem menampilkan pesan peralatan tidak tersedia dan pengajuan tidak dilanjutkan" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r16" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="r16_c1" parent="r16" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="9. Isian pengajuan tidak lengkap (cabang dari langkah 4)" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r16_c2" parent="r16" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r17" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="46" width="700" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="r17_c1" parent="r17" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="46" width="200" as="geometry">
+            <mxRectangle height="46" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r17_c2" parent="r17" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="10. Sistem menampilkan pesan isian belum lengkap dan meminta peminjam melengkapi isian" vertex="1">
+          <mxGeometry height="46" width="500" x="200" as="geometry">
+            <mxRectangle height="46" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r18" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="86" width="700" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="r18_c1" parent="r18" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="11. Peminjam memilih cetak bukti, dengan condition [mahasiswa memilih cetak] dan extension point Bukti pengajuan tersedia (extend LAB-UC05 Cetak Bukti Pengajuan; lihat Tabel skenario LAB-UC05)" vertex="1">
+          <mxGeometry height="86" width="200" as="geometry">
+            <mxRectangle height="86" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r18_c2" parent="r18" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="86" width="500" x="200" as="geometry">
+            <mxRectangle height="86" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r19" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="51" width="700" y="793" as="geometry" />
+        </mxCell>
+        <mxCell id="r19_c1" parent="r19" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="51" width="200" as="geometry">
+            <mxRectangle height="51" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r19_c2" parent="r19" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="12. Sistem menampilkan bukti pengajuan dengan nomor pengajuan sesuai Tabel skenario LAB-UC05" vertex="1">
+          <mxGeometry height="51" width="500" x="200" as="geometry">
+            <mxRectangle height="51" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r20" parent="table1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[];" value="" vertex="1">
+          <mxGeometry height="66" width="700" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="r20_c1" parent="r20" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="&lt;b&gt;Skenario Akhir&lt;/b&gt;" vertex="1">
+          <mxGeometry height="66" width="200" as="geometry">
+            <mxRectangle height="66" width="200" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r20_c2" parent="r20" style="shape=tableCell;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=5;strokeColor=#000000;" value="Use case selesai jika pengajuan tersimpan dengan status Menunggu Keputusan; jika peralatan tidak tersedia atau isian tidak lengkap, pengajuan tidak tersimpan dan peminjam kembali ke daftar peralatan atau melengkapi isian." vertex="1">
+          <mxGeometry height="66" width="500" x="200" as="geometry">
+            <mxRectangle height="66" width="500" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

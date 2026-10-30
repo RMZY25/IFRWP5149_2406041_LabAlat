@@ -1,0 +1,188 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="YeCveqX_VeAflFfSG_g1">
+    <mxGraphModel dx="774" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Helvetica;fontStyle=1;" value="Tabel Skenario Use Case SIA-UC07 Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="30" width="520" x="100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="table_container" parent="1" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#000000;fillColor=#ffffff;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="510" width="560" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="row_1" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="30" width="560" as="geometry" />
+        </mxCell>
+        <mxCell id="r1_c1" parent="row_1" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Nama use case" vertex="1">
+          <mxGeometry height="30" width="180" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1_c2" parent="row_1" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="SIA-UC07 Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="30" width="380" x="180" as="geometry">
+            <mxRectangle height="30" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_2" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="29" width="560" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r2_c1" parent="row_2" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Aktor" vertex="1">
+          <mxGeometry height="29" width="180" as="geometry">
+            <mxRectangle height="29" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2_c2" parent="row_2" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Civitas Akademika (berlaku untuk Mahasiswa dan Dosen)" vertex="1">
+          <mxGeometry height="29" width="380" x="180" as="geometry">
+            <mxRectangle height="29" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_3" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="40" width="560" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="r3_c1" parent="row_3" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Tujuan" vertex="1">
+          <mxGeometry height="40" width="180" as="geometry">
+            <mxRectangle height="40" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3_c2" parent="row_3" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="Civitas Akademika dapat mengetahui jadwal kegiatan perkuliahan dan agenda akademik" vertex="1">
+          <mxGeometry height="40" width="380" x="180" as="geometry">
+            <mxRectangle height="40" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_4" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="54" width="560" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="r4_c1" parent="row_4" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Deskripsi" vertex="1">
+          <mxGeometry height="54" width="180" as="geometry">
+            <mxRectangle height="54" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4_c2" parent="row_4" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="Civitas Akademika membuka fungsi kalender akademik, memilih semester/tahun akademik, dan sistem menampilkan daftar agenda kegiatan akademik" vertex="1">
+          <mxGeometry height="54" width="380" x="180" as="geometry">
+            <mxRectangle height="54" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_5" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="30" width="560" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="r5_c1" parent="row_5" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Kegiatan" vertex="1">
+          <mxGeometry height="30" width="180" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5_c2" parent="row_5" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Respon sistem" vertex="1">
+          <mxGeometry height="30" width="380" x="180" as="geometry">
+            <mxRectangle height="30" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_6" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="25" width="560" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="r6_c1" parent="row_6" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#e1e1e1;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Skenario Normal" vertex="1">
+          <mxGeometry height="25" width="560" as="geometry">
+            <mxRectangle height="25" width="560" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_7" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="40" width="560" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="r7_c1" parent="row_7" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="1. Civitas Akademika membuka fungsi Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="40" width="180" as="geometry">
+            <mxRectangle height="40" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r7_c2" parent="row_7" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="40" width="380" x="180" as="geometry">
+            <mxRectangle height="40" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_8" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="34" width="560" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="r8_c1" parent="row_8" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="34" width="180" as="geometry">
+            <mxRectangle height="34" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r8_c2" parent="row_8" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="2. Sistem menampilkan daftar periode tahun akademik" vertex="1">
+          <mxGeometry height="34" width="380" x="180" as="geometry">
+            <mxRectangle height="34" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_9" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="35" width="560" y="282" as="geometry" />
+        </mxCell>
+        <mxCell id="r9_c1" parent="row_9" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="3. Civitas Akademika memilih periode akademik" vertex="1">
+          <mxGeometry height="35" width="180" as="geometry">
+            <mxRectangle height="35" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9_c2" parent="row_9" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="35" width="380" x="180" as="geometry">
+            <mxRectangle height="35" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_10" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="40" width="560" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="r10_c1" parent="row_10" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="40" width="180" as="geometry">
+            <mxRectangle height="40" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r10_c2" parent="row_10" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="4. Sistem menampilkan jadwal dan rincian agenda akademik periode tersebut" vertex="1">
+          <mxGeometry height="40" width="380" x="180" as="geometry">
+            <mxRectangle height="40" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_11" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="24" width="560" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="r11_c1" parent="row_11" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#e1e1e1;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Skenario Alternative" vertex="1">
+          <mxGeometry height="24" width="560" as="geometry">
+            <mxRectangle height="24" width="560" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_12" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="45" width="560" y="381" as="geometry" />
+        </mxCell>
+        <mxCell id="r12_c1" parent="row_12" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="5. Belum ada agenda pada periode yang dipilih (cabang dari langkah 4)" vertex="1">
+          <mxGeometry height="45" width="180" as="geometry">
+            <mxRectangle height="45" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r12_c2" parent="row_12" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="45" width="380" x="180" as="geometry">
+            <mxRectangle height="45" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_13" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="39" width="560" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="r13_c1" parent="row_13" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="" vertex="1">
+          <mxGeometry height="39" width="180" as="geometry">
+            <mxRectangle height="39" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r13_c2" parent="row_13" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="6. Sistem menampilkan pesan bahwa belum ada agenda akademik yang terdaftar" vertex="1">
+          <mxGeometry height="39" width="380" x="180" as="geometry">
+            <mxRectangle height="39" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="row_14" parent="table_container" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;recursiveResize=0;fontFamily=Helvetica;" value="" vertex="1">
+          <mxGeometry height="45" width="560" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="r14_c1" parent="row_14" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#f5f5f5;fontStyle=1;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;" value="Skenario Akhir" vertex="1">
+          <mxGeometry height="45" width="180" as="geometry">
+            <mxRectangle height="45" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r14_c2" parent="row_14" style="connectable=0;inset=2;strokeColor=#000000;fillColor=#ffffff;html=1;align=left;verticalAlign=middle;fontSize=11;fontFamily=Helvetica;spacingLeft=8;whiteSpace=wrap;" value="Use case selesai jika kalender akademik ditampilkan; jika tidak ada agenda, use case selesai dengan pesan tersebut." vertex="1">
+          <mxGeometry height="45" width="380" x="180" as="geometry">
+            <mxRectangle height="45" width="380" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
