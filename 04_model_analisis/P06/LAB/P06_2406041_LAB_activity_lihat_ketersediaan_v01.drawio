@@ -1,0 +1,78 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="FF27wSL2o1a3mEXFlZ_n">
+    <mxGraphModel dx="1173" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="680" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="swimlane_container" parent="1" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rowLines=0;columnLines=1;strokeColor=#000000;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="760" width="600" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="row_headers" parent="swimlane_container" style="shape=tableRow;horizontal=1;startSize=0;translateRow=1;fillColor=none;childLayout=horizontalTree;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="600" as="geometry" />
+        </mxCell>
+        <mxCell id="header_peminjam" parent="row_headers" style="connectable=0;fillColor=none;strokeColor=#000000;fontStyle=1;align=center;verticalAlign=middle;fontSize=12;" value="Peminjam" vertex="1">
+          <mxGeometry height="30" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="header_sistem" parent="row_headers" style="connectable=0;fillColor=none;strokeColor=#000000;fontStyle=1;align=center;verticalAlign=middle;fontSize=12;" value="Sistem" vertex="1">
+          <mxGeometry height="30" width="300" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="row_body" parent="swimlane_container" style="shape=tableRow;horizontal=1;startSize=0;translateRow=1;fillColor=none;childLayout=horizontalTree;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="730" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_peminjam" parent="row_body" style="connectable=0;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="730" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lane_sistem" parent="row_body" style="connectable=0;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="730" width="300" x="300" as="geometry" />
+        </mxCell>
+        <mxCell id="initial_node" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="175" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="act_membuka_fungsi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Membuka fungsi Lihat Ketersediaan&#xa;Peralatan" vertex="1">
+          <mxGeometry height="50" width="240" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="act_menampilkan_daftar" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#ffffff;strokeColor=#000000;" value="Menampilkan daftar peralatan beserta&#xa;status ketersediaannya" vertex="1">
+          <mxGeometry height="60" width="240" x="370" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dec_peralatan_tersedia" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Peralatan&#xa;tersedia?" vertex="1">
+          <mxGeometry height="65" width="120" x="430" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="act_menampilkan_pesan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan pesan tidak ada&#xa;peralatan yang tersedia" vertex="1">
+          <mxGeometry height="55" width="240" x="370" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="merge_node" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="470" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="final_node" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="475" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_1" edge="1" parent="1" source="initial_node" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_membuka_fungsi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_2" edge="1" parent="1" source="act_membuka_fungsi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="act_menampilkan_daftar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_3" edge="1" parent="1" source="act_menampilkan_daftar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="dec_peralatan_tersedia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_4" edge="1" parent="1" source="dec_peralatan_tersedia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=#ffffff;" target="act_menampilkan_pesan" value="[tidak tersedia]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_5" edge="1" parent="1" source="dec_peralatan_tersedia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=#ffffff;" target="merge_node" value="[tersedia]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="412.5" />
+              <mxPoint x="630" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="flow_6" edge="1" parent="1" source="act_menampilkan_pesan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="merge_node">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="flow_7" edge="1" parent="1" source="merge_node" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" target="final_node">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
